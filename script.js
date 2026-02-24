@@ -21,7 +21,6 @@ num="hello";
 console.log(num);
 console.log(typeof(num));
 
-alert("hello world!");
 
 const sym1= Symbol(4);
 console.log(sym1);
