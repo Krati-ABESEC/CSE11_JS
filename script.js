@@ -55,13 +55,81 @@ console.log("Hello World!");
 // result=a%b;
 // console.log(result);
 
-var count;
+// var count;
 
-document.write("Starting loop"+"<br/>");
+// document.write("Starting loop"+"<br/>");
 
-for(count=0;count<10;count++){
-    document.write("current count:"+count);
-    document.write("<br/>");
+// for(count=0;count<10;count++){
+//     document.write("current count:"+count);
+//     document.write("<br/>");
+// }
+
+// document.write("loop stopped!");
+
+// let person={
+//     fname:"Krati",
+//     lname:"Agarwal",
+//     age:18,
+// };
+
+// for(let x in person){
+//     console.log("person details: "+x+";"+person[x])
+// }
+
+// var count=0;
+// document.write("starting the loop");
+
+// while(count<10){
+//     document.write("current count: "+count+"</br>");
+//     count++;
+// }
+
+// document.write("ending loop!");
+
+
+// let age=20;
+
+// if(age>=18){
+//     document.write("you are an adult");
+// }
+// else{
+//     document.write("you are a minor");
+// }
+
+
+// let grade='A';
+// document.write("entering switch block<br/>");
+
+// switch(grade){
+//     case 'A':document.write("Good job<br/>");
+//     break;
+//     case 'B':document.write("Pretty Good<br/>");
+//     break;
+//     case 'C':document.write("passed<br/>");
+//     break;
+//     case 'D':document.write("Not so good<br/>");
+//     break;
+//     case 'F':document.write("failed<br/>");
+//     break;
+//     default:document.write("unknown grade<br/>");
+//     break;
+    
+// }
+
+// document.write("exiting the switch block");
+
+function f(){
+    alert("hello world!");
 }
 
-document.write("loop stopped!");
+
+function info(name, age){
+    document.write(name+" is "+age+" years old.");
+}
+
+
+
+
+
+
+
