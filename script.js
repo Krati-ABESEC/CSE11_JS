@@ -1,3 +1,4 @@
+// in JS:- camel case is always followed
 console.log("Hello World!");
 // document.write("Hello World!");
 
@@ -198,6 +199,8 @@ let trainerinfo= ["hello", 10,"DPS"];
 trainerinfo[0]= "Krati Agarwal";
 
 console.log(trainerinfo);
+
+
 
 
 
