@@ -118,14 +118,86 @@ console.log("Hello World!");
 
 // document.write("exiting the switch block");
 
-function f(){
-    alert("hello world!");
-}
+// function f(){
+//     alert("hello world!");
+// }
 
 
-function info(name, age){
-    document.write(name+" is "+age+" years old.");
+// function info(name, age){
+//     document.write(name+" is "+age+" years old.");
+// }
+
+let add2= (a,b)=> {
+    console.log(a+b);
 }
+
+add2(102,20);
+
+
+let add1=(a,b) => console.log(a+b);
+
+let x= new Object();// it is the block containing key value pairs
+// it can contain both primitive and reference types and its an unordered collection
+// for example: 
+
+let person= {
+    name: "Krati",
+    age: 18,
+    isMarried: false,
+    address:{
+        street: "kaserath bazar",
+        flatno: 202
+    },
+};
+
+console.log(person.name);
+console.log(person.address.flatno);
+
+let person1={
+    name:"kartik",
+    age: 20,
+    isMarried: false,
+    fruit:["Mango"],
+    address:{
+        street: "kothi gate",
+        flatno: 210
+    },
+}
+
+console.log(person1.fruit);
+
+let info= new Array();
+//or
+let info1= Array();
+
+let collection=[
+    {},
+    [],
+    true,
+    "john",
+    function(){},
+    9064892873,
+    undefined,
+    null,
+    new String("abc"),// string abject
+    new Date(),// date object
+];
+
+// console.log(collection);
+console.log(collection.length);
+
+// addition of elements in an array
+collection.teacherName="john mac";
+collection.phoneno= 937893293;
+// after adding the above elements length of the array(collection) will not change
+// console.log(collection);
+console.log(collection.length);
+
+let trainerinfo= ["hello", 10,"DPS"];
+// updation in an array
+trainerinfo[0]= "Krati Agarwal";
+
+console.log(trainerinfo);
 
 
 
