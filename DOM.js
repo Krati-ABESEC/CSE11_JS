@@ -36,49 +36,68 @@
 
 // html DOM append method--->
 
-const heading= document.createElement("h2");
 
-function click(){
-    console.log("onclick is executed!");
-}
+// function click(){
+//     console.log("onclick is executed!");
+// }
 
-function over(){
-    console.log("over is executed </br>");
-}
+// function over(){
+//     console.log("over is executed </br>");
+// }
 
-function out(){
-    console.log("out is executed </br>");
-}
+// function out(){
+//     console.log("out is executed </br>");
+// }
 
-function down(){
-    console.log("down is executed");
-}
+// function down(){
+//     console.log("down is executed");
+// }
 
-function up(){
-    console.log("up is executed");
-}
+// function up(){
+//     console.log("up is executed");
+// }
 
-function move(){
-    console.log("move is executed");
-}
+// function move(){
+//     console.log("move is executed");
+// }
 
-const x= document.querySelector("input");
+// const x= document.querySelector("input");
 
-x.addEventListener('focus', onhandlefocus);
-x.addEventListener('blur', onhandleblur);
+// x.addEventListener('focus', onhandlefocus);
+// x.addEventListener('blur', onhandleblur);
 
-function onhandlefocus(){
-    x.style.backgroundColor= "red";
-}
+// function onhandlefocus(){
+//     x.style.backgroundColor= "red";
+// }
 
-function onhandleblur(){
-    x.style.backgroundColor="yellow";
-    x.style.color= 
-}
+// function onhandleblur(){
+//     x.style.backgroundColor="yellow";
+//     x.style.color= 
+// }
 
-function load(){
-    alert("window loaded successfully!");
-}
+// function load(){
+//     alert("window loaded successfully!");
+// }
+
+
+let text = '{"employees": ['+
+'{"firstName" : "John", "lastName":"Doe"},'+
+'{"firstName" : "Anna", "lastName":"Smith"},'+
+'{"firstName" : "Peter", "lastName":"Jones"}]}';
+
+// obj= JSON.parse(text);// string to JSON
+// document.getElementById("demo").innerHTML=
+// obj.employees[1].firstName+""+obj.
+
+
+
+
+
+
+
+
+
+
 
 
 

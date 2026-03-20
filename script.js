@@ -200,6 +200,9 @@ console.log("Hello World!");
 
 // console.log(trainerinfo);
 
+const a=prompt("enter a number");
+const b= prompt("enter a number");
+
 
 
 
