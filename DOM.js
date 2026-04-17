@@ -89,6 +89,59 @@ let text = '{"employees": ['+
 // document.getElementById("demo").innerHTML=
 // obj.employees[1].firstName+""+obj.
 
+let promise= new promise((resolve,reject)=> {
+    let success =false;
+    if(success){
+        resolve("data loaded");
+    }else{
+        reject("error occured");
+    }
+});
+
+promise.then(resolve => console.log("problem resolved"));
+
+// async await-------->
+async function getData(){
+    let response= await
+    fetch("");
+    let data= await response.json();
+    console.log(data);
+}
+
+getData();
+
+//fetch API
+
+fetch("")
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.log(error));
+
+
+// error handling
+
+try{
+    var x= y+2;
+}
+
+catch(error){
+    console.log(error.message);
+}
+
+
+localStorage.setItem("name", "Jeet");// it stores info in string format
+var name1= localStorage.getItem("name");
+
+console.log(name1);
+
+let user= {name: "Jeet", age:50};
+localStorage.setItem("user", JSON.stringify(user));
+
+let data= JSON.parse(localStorage.getItem("user"));
+console.log(data);
+
+
+
 
 
 
