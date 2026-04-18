@@ -2,9 +2,7 @@ import React from 'react'
 
 function Greeting() {
   return (
-    <div>
-      Greeting
-    </div>
+   <></>
 
     // using props----->
 // function student(props) {
